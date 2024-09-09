@@ -27,3 +27,26 @@ The **Wordle Multiplayer Game** is designed to offer a seamless and immersive mu
 - **Socket.IO**: Facilitates real-time, bidirectional communication for multiplayer functionality, enhancing the gameplay experience.
 - **MongoDB**: For secure and efficient database management, handling user data and game information.
 - **Bcrypt**: Ensures secure password hashing, protecting user credentials and enhancing overall security.
+
+## Getting Started
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/wordle-multiplayer-game.git
+   cd wordle-multiplayer-game
+2. **Setup Frontend: Navigate to the client directory and install dependencies**:
+    ```bash
+    cd client
+    npm install
+3. **Setup Backend: Navigate to the server directory and install dependencies**:
+   ```bash
+    cd server
+    npm install
+4. **Run the Application: Start the backend server**:
+   ```bash
+    cd server
+    npm start
+5. **Then, start the React Native client**:
+   ```bash
+    cd client
+    npm start
